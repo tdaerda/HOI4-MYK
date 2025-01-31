@@ -1,0 +1,232 @@
+ideas = {
+
+	economy = {	#经济模式
+		law = yes
+		use_list_view = yes
+
+		chaotic_economy_economy = {	#混乱经济
+
+			available = {
+				always = no
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				GDP_conversion_rate = 0
+
+				production_speed_buildings_factor = -1
+
+				industrial_capacity_dockyard = -1
+				industrial_capacity_factory = -1
+
+				production_factory_efficiency_gain_factor = -1
+				production_factory_max_efficiency_factor = -1
+			}
+			cancel_if_invalid = no
+		}
+
+		bandit_economy_economy = {	#土匪经济
+
+			available = {
+				always = no
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				GDP_conversion_rate = 0.1
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = -0.5
+			}
+			cancel_if_invalid = no
+		}
+
+		laissez_faire_economy = {	#自由放任
+
+			available = {
+				has_government = GuDianZiYouZHuYi
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				GDP_conversion_rate = 0.2
+				global_building_slots_factor = -0.15
+				production_factory_efficiency_gain_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
+			}
+			cancel_if_invalid = yes
+		}
+
+		Interventionism_economy = {	#经济干预
+
+			available = {
+				OR = {
+					has_government = SHeHuiMinZHuZHuYi
+					has_government = MinZHuSHeHuiZHuYi
+					has_government = JiaSuZHuYi
+					has_government = BaoSHouZHuYi
+					has_government = GuiZuBaoSHouZHuYi
+					has_government = JiaZHangZHi
+					has_government = JunZHuZHuYi
+					has_government = SHeHuiFaXiSi
+					has_government = SiTeLaSeZHuYi
+					has_government = FaXiSiZHuYi
+					has_government = MinZuSHeHuiZHuYi
+					has_government = BoGenDiTiZHi
+				}
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				GDP_conversion_rate = 0.3
+				global_building_slots_factor = -0.10
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+		reform_and_opening_up_economy = {	#半计划经济
+
+			available = {
+				OR = {
+					has_government = MaKeSi_LieNingZHuYi
+					has_government = TuoLuoSiJiZHuYi
+					has_government = SiDaLingZHuYi
+					has_government = YuanSHiZHuYi
+					has_government = JunZHengGuongCHanZHuYi
+					has_government = JunZHuBuErSHiWeiKe
+					has_government = SHeHuiMinZHuZHuYi
+					has_government = MinZHuSHeHuiZHuYi
+					has_government = JiaSuZHuYi
+					has_government = BaoSHouZHuYi
+					has_government = GuiZuBaoSHouZHuYi
+					has_government = JiaZHangZHi
+					has_government = JunZHuZHuYi
+					has_government = SHeHuiFaXiSi
+					has_government = SiTeLaSeZHuYi
+					has_government = FaXiSiZHuYi
+					has_government = MinZuSHeHuiZHuYi
+					has_government = BoGenDiTiZHi
+				}
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				GDP_conversion_rate = 0.4
+				political_power_cost = 0.05
+				global_building_slots_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+			}
+			cancel_if_invalid = yes
+		}
+
+		planned_economy_economy = {	#计划经济
+
+			available = {
+				OR = {
+					has_government = MaKeSi_LieNingZHuYi
+					has_government = TuoLuoSiJiZHuYi
+					has_government = SiDaLingZHuYi
+					has_government = YuanSHiZHuYi
+					has_government = JunZHengGuongCHanZHuYi
+					has_government = JunZHuBuErSHiWeiKe
+					has_government = SHeHuiFaXiSi
+					has_government = SiTeLaSeZHuYi
+					has_government = FaXiSiZHuYi
+					has_government = MinZuSHeHuiZHuYi
+					has_government = BoGenDiTiZHi
+				}
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				GDP_conversion_rate = 0.5
+				political_power_cost = 0.05
+				global_building_slots_factor = 0.25
+				production_factory_efficiency_gain_factor = -0.10
+				production_factory_max_efficiency_factor = -0.10
+			}
+			cancel_if_invalid = yes
+		}
+
+		parecon_economy = {	#参与型经济
+
+			available = {
+				OR = {
+					has_government = GuongTuanZHuYi
+					has_government = MaKeSi_LieNingZHuYi
+					has_government = TuoLuoSiJiZHuYi
+					has_government = SiDaLingZHuYi
+					has_government = YuanSHiZHuYi
+					has_government = JunZHengGuongCHanZHuYi
+					has_government = JunZHuBuErSHiWeiKe
+					has_government = SHeHuiFaXiSi
+				}
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				GDP_conversion_rate = 0.6
+				stability_factor = 0.02
+				political_power_cost = 0.02
+				global_building_slots_factor = 0.15
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+			}
+			cancel_if_invalid = yes
+		}
+
+		cooperative_economy = {	#合作社经济
+
+			available = {
+				OR = {
+					has_government = WuZHengFuGuongCHanZHuYi
+					has_government = GuongTuanZHuYi
+				}
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				GDP_conversion_rate = 1
+				production_speed_buildings_factor = 0.05
+				global_building_slots_factor = -0.05
+			}
+			cancel_if_invalid = yes
+		}
+
+
+
+
+		11111 ={
+			cost = 1000
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = -1
+				political_power_factor = -0.1
+				stability_factor = 0.1
+				party_popularity_stability_factor = -0.1
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+}

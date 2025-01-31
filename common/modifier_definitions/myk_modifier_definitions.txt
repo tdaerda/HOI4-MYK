@@ -1,0 +1,34 @@
+tax_efficiency = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+GDP_conversion_rate = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+arms_factory_maintenance_fee_factor = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+industrial_complex_maintenance_fee_factor = {
+	color_type = bad
+	value_type = percentage
+	precision = 2
+	category = country
+}
+
+extra_income = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}

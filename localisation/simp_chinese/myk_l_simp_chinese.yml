@@ -1,0 +1,181 @@
+﻿l_simp_chinese:
+
+ myk_idea_zzwz: "政治武装"
+ myk_idea_wzzl: "武装中立"
+ myk_idea_mzzyjq: "民族主义崛起"
+ myk_idea_gjzyjq: "国家主义崛起"
+ myk_idea_ydmz: "优等民族"
+ myk_idea_ldmzdfd: "劣等民族的反对"
+ myk_idea_qingxi: "清洗"
+ myk_idea_qingxitaguo: "清洗他国"
+ myk_idea_qlzy: "侵略主义"
+ myk_idea_zmswj: "殖民事务局"
+ myk_idea_nlz: "奴隶制"
+ myk_idea_ydmzdwtb: "优等民族的乌托邦"
+ myk_idea_dbg: "大罢工"
+ myk_idea_NuBing: "奴兵"
+ myk_idea_FaXiSiGeMing: "法西斯革命"
+ myk_idea_QingXiYouYiFaXiSi: "清洗右翼法西斯"
+ myk_idea_GongCHanZHuYiXvanCHuan: "共产主义宣传"
+ myk_idea_GuoFangJianSHe: "国防建设"
+ myk_idea_DisSiTianZai: "~"
+ 
+ #GUI
+ 
+ #income_count_1: "[?ROOT.treasury]" #|+
+ #income_count_2: "[?ROOT.revenue]" #|=+
+ income_count: "[?ROOT.treasury|.1+^2H]\n[?ROOT.real_revenue|.1=+^2H]"
+ income_count_desc: "§Y经济§!\n国库：[?ROOT.treasury|Y]克黄金\n收入：[?ROOT.revenue|Y]/日\n赤字：[?ROOT.deficit|Y]/日\n\n目前我们的民众总财富为[?ROOT.national_wealth|.0Y]，税收效率为[?modifier@tax_efficiency|Y%]，税率为§Y10%§!，额外收入为[?modifier@extra_income|Y]。也就是说我们能收到[?ROOT.national_wealth|.0Y]中的[?modifier@tax_efficiency|Y%]中的§Y10.00%§!加[?modifier@extra_income|Y]。\n而我们需要支付[?ROOT.military_maintenance_fee|Y]克黄金给军队，支付[?ROOT.arms_factory_maintenance_fee|Y]给军用工厂，支付[?ROOT.industrial_complex_maintenance_fee|Y]给民用工厂。"
+ 
+ INCOME_LABEL: "经济"
+ 
+ #自定义修正
+ 
+ tax_efficiency: "税收效率"
+ GDP_conversion_rate: "GDP转化率"
+ arms_factory_maintenance_fee_factor: "军用工厂维护费修正"
+ industrial_complex_maintenance_fee_factor: "民用工厂维护费修正"
+ extra_income: "额外收入"
+ 
+ #政府
+ 
+ government: "政府"
+ head_of_government: "政府首脑"
+ economy_chief: "经济部长"
+ foreign_affairs_chief: "外交部长"
+ 
+ 
+ advisor: "顾问"
+ high_command: "军事顾问"
+ 
+ mobilization: "动员"
+ mobilization_laws: "人力动员"
+ economy_mobilization: "经济动员"
+ 
+ 
+ nation: "国家"
+ 
+ distribution_of_power: "权力分配"
+ dictatorship_distribution_of_power: "独裁制"
+ oligarchy_distribution_of_power: "寡头制"
+ classical_republic_distribution_of_power: "古典共和制"
+ high_republic_distribution_of_power: "高等共和制"
+ parliamentary_republic_distribution_of_power: "议会共和制"
+ committee_republic_distribution_of_power: "委员会共和制"
+ anarchy_distribution_of_power: "无政府"
+ 
+ suffrage: "选举权"
+ no_election_suffrager: "无选举"
+ single_winner_elections_suffrager: "明面选举"
+ property_vote_suffrager: "财产投票"
+ differentiated_elections_suffrager: "区别选举"
+ qualifying_election_suffrager: "资格性选举"
+ universal_suffrage_suffrager: "普选制"
+ peoples_state_suffrager: "人民国家"
+ 
+ police: "警察机构"
+ no_police_police: "无警察"
+ local_police_police: "地方警察"
+ full_time_police_police: "专职警察"
+ militarized_police_police: "军事化警察"
+ 
+ army: "军队"
+ professional_army_army: "专业军队"
+ wartime_conscription_army: "战时征兵"
+ 
+ economy: "经济模式"
+ chaotic_economy_economy: "混乱经济"
+ bandit_economy_economy: "土匪经济"
+ laissez_faire_economy: "自由放任"
+ Interventionism_economy: "经济干预"
+ reform_and_opening_up_economy: "半计划经济"
+ planned_economy_economy: "计划经济"
+ parecon_economy: "参与型经济"
+ cooperative_economy: "合作社经济"
+ 
+ tax: "税收类型"
+ no_taxation_tax: "无税收"
+ unsystematic_taxation_tax: "未成体系的税收"
+ consumption_based_taxation_tax: "消费税"
+ cultivators_based_taxation_tax: "耕种者税"
+ land_based_taxation_tax: "土地税"
+ per_capita_taxation_tax: "人均税"
+ proportional_taxation_tax: "比例税"
+ 
+ 
+ 
+ worker: "劳工"
+ 
+ strike: "罢工权力"
+ no_strike_strike: "禁止罢工"
+ state_sanctioned_strike: "国家批准罢工"
+ strikes_are_prohibited_during_extraordinary_times_strike: "非常时期禁止罢工"
+ strike_allowed_strike: "允许罢工"
+ 
+ union: "工会政策"
+ ban_trade_unions_union: "禁止工会"
+ state_controlled_unions_union: "国家控制工会"
+ allow_depoliticized_unions_union: "允许非政治化工会"
+ unions_allowed_union: "允许工会"
+ 
+ working_hours: "工作时长"
+ Unlimited_working_hours: "无限制"
+ Maximum_18h_per_day_working_hours: "每日最多18小时"
+ Maximum_16h_per_day_working_hours: "每日最多16小时"
+ Maximum_14h_per_day_working_hours: "每日最多14小时"
+ Maximum_12h_per_day_working_hours: "每日最多12小时"
+ Maximum_10h_per_day_working_hours: "每日最多10小时"
+ Maximum_8h_per_day_working_hours: "每日最多8小时"
+ Maximum_6h_per_day_working_hours: "每日最多6小时"
+ Maximum_4h_per_day_working_hours: "每日最多4小时"
+ 
+ minimum_wage: "最低工资"
+ no_minimum_wage_minimum_wage: "无最低工资"
+ nominal_minimum_wage_minimum_wage: "象征性最低工资"
+ 1_per_hour_minimum_wage: "时薪1元"
+ 2_per_hour_minimum_wage: "时薪2元"
+ 3_per_hour_minimum_wage: "时薪3元"
+ 4_per_hour_minimum_wage: "时薪4元"
+ 5_per_hour_minimum_wage: "时薪5元"
+ 6_per_hour_minimum_wage: "时薪6元"
+ 7_per_hour_minimum_wage: "时薪7元"
+ 8_per_hour_minimum_wage: "时薪8元"
+ 9_per_hour_minimum_wage: "时薪9元"
+ 10_per_hour_minimum_wage: "时薪10元"
+ 11_per_hour_minimum_wage: "时薪11元"
+ 12_per_hour_minimum_wage: "时薪12元"
+ 13_per_hour_minimum_wage: "时薪13元"
+ 14_per_hour_minimum_wage: "时薪14元"
+ 15_per_hour_minimum_wage: "时薪15元"
+ 16_per_hour_minimum_wage: "时薪16元"
+ 17_per_hour_minimum_wage: "时薪17元"
+ 18_per_hour_minimum_wage: "时薪18元"
+ 19_per_hour_minimum_wage: "时薪19元"
+ 20_per_hour_minimum_wage: "时薪20元"
+ 
+ dole: "救济金"
+ no_benefits_dole: "无救济"
+ symbolic_relief_dole: "象征性救济"
+ wage_subsidy_dole: "工资补贴"
+ unemployment_benefits_dole: "失业补助"
+ wage_subsidy_unemployment_benefits_dole: "工资补贴+失业补助"
+ 
+ pension: "养老金"
+ no_pension_pension: "无养老金"
+ token_pension_pension: "象征性养老金"
+ Pensions_based_on_position_pension: "按职位发放养老金"
+ fixed_pension_pension: "固定养老金"
+ 
+ #事件
+ 
+ myk_income.1: "[ROOT.GetName]的黄金时代"
+ myk_income.1.t: "[ROOT.GetName]的黄金时代"
+ myk_income.1.d: "就在我们的国库超过1M的时候，我们就可以自豪的宣布这个时代将以[ROOT.GetName]来命名。"
+ myk_income.1.a: "属于我们的时代"
+ 
+ myk_income.2: "破产！"
+ myk_income.2.t: "破产！"
+ myk_income.2.d: "当我们的债务超过500K的时候不得不宣布破产，这将让我们的所有装备用来拍卖，不过我们保着了大部分，只有枪械被拉去拍卖了。"
+ myk_income.2.a: "完了"
+ 
+ debt_cleared_tt: "债务清零"

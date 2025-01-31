@@ -1,0 +1,470 @@
+ideologies = {
+ 
+#左翼
+
+	WuZHengFuGuongCHanZHuYi = { #无政府共产主义
+		types = {
+			WuZHengFuGuongCHanZHuYi_c = {
+			}
+		}
+		color = { 128 0 0 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	GuongTuanZHuYi = { #工团主义
+		types = {
+			GuongTuanZHuYi_c = {
+			}
+		}
+		color = { 255 85 0 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	MaKeSi_LieNingZHuYi = { #马克思 - 列宁主义
+		types = {
+			MaKeSi_LieNingZHuYi_c = {
+			}
+		}
+		color = { 255 0 0 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	TuoLuoSiJiZHuYi = { #托洛斯基主义
+		types = {
+			TuoLuoSiJiZHuYi_c = {
+			}
+		}
+		color = { 212 0 0 }
+ 
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	SiDaLingZHuYi = { #斯大林主义
+		types = {
+			SiDaLingZHuYi_c = {
+			}
+		}
+		color = { 77 0 0 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	YuanSHiZHuYi = { #远视主义
+		types = {
+			YuanSHiZHuYi_c = {
+			}
+		}
+		color = { 77 178 178 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	JunZHengGuongCHanZHuYi = { #军政共产主义
+		types = {
+			JunZHengGuongCHanZHuYi_c = {
+			}
+		}
+		color = { 50 75 0 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+ #中间派
+
+	JunZHuBuErSHiWeiKe = { #君主布尔什维克
+		types = {
+			JunZHuBuErSHiWeiKe_c = {
+			}
+		}
+		color = { 255 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	GuDianZiYouZHuYi = { #古典自由主义
+		types = {
+			GuDianZiYouZHuYi_c = {
+			}
+		}
+		color = { 0 100 255 } #216 38 40
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+	
+	SHeHuiMinZHuZHuYi = { #社会民主主义
+		types = {
+			SHeHuiMinZHuZHuYi_c = {
+			}
+		}
+		color = { 255 100 200 } #216 38 40
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	MinZHuSHeHuiZHuYi = { #民主社会主义
+		types = {
+			MinZHuSHeHuiZHuYi_c = {
+			}
+		}
+		color = { 153 27 28 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	JiaSuZHuYi = { #加速主义
+		types = {
+			JiaSuZHuYi_c = {
+			}
+		}
+		color = { 255 255 255 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	BaoSHouZHuYi = { #保守主义
+		types = {
+			BaoSHouZHuYi_c = {
+			}
+		}
+		color = { 133 133 133 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	GuiZuBaoSHouZHuYi = { #贵族保守主义
+		types = {
+			GuiZuBaoSHouZHuYi_c = {
+			}
+		}
+		color = { 100 100 100 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	JiaZHangZHi = { #家长制
+		types = {
+			JiaZHangZHi_c = {
+			}
+		}
+		color = { 77 77 77 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	JunZHuZHuYi = { #君主主义
+		types = {
+			JunZHuZHuYi_c = {
+			}
+		}
+		color = { 106 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	ZiBenGuongCHanZHuYi = { #资本共产主义
+		types = {
+			ZiBenGuongCHanZHuYi_c = {
+			}
+		}
+		color = { 255 255 0 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+ #右翼
+
+	SHeHuiFaXiSi = { #社会法西斯
+		types = {
+			SHeHuiFaXiSi_c = {
+			}
+		}
+		color = { 100 64 0 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+	SiTeLaSeZHuYi = { #斯特拉瑟主义
+		types = {
+			SiTeLaSeZHuYi_c = {
+			}
+		}
+		color = { 150 75 0 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	FaXiSiZHuYi = { #法西斯主义
+		types = {
+			FaXiSiZHuYi_c = {
+			}
+		}
+		color = { 38 38 38 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	MinZuSHeHuiZHuYi = { #民族社会主义
+		types = {
+			MinZuSHeHuiZHuYi_c = {
+			}
+		}
+		color = { 0 0 0 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	BoGenDiTiZHi = { #勃艮第体制
+		types = {
+			BoGenDiTiZHi_c = {
+			}
+		}
+		color = { 78 10 128 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+}
+
