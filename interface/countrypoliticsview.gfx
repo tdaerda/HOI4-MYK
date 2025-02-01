@@ -647,6 +647,11 @@ spriteTypes = {
 #意识形态
 
 	spriteType = {
+		name = "GFX_ideology_WuZHengFuGuongCHanZHuYi_group"
+		texturefile = "gfx/interface/ideologies/无政府共产主义.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_BaoSHouZHuYi_group"
 		texturefile = "gfx/interface/ideologies/保守主义.dds"
 	}
@@ -654,5 +659,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_GuiZuBaoSHouZHuYi_group"
 		texturefile = "gfx/interface/ideologies/贵族保守主义.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_JiaZHangZHi_group"
+		texturefile = "gfx/interface/ideologies/家长制.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_JunZHuZHuYi_group"
+		texturefile = "gfx/interface/ideologies/君主主义.dds"
 	}
 }
