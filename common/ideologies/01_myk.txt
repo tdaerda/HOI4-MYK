@@ -1,5 +1,27 @@
 ideologies = {
  
+	WuZHengFuZuangTai = { #无政府状态
+		types = {
+			WuZHengFuZuangTai_c = {
+			}
+		}
+		color = { 26 26 26 }
+
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+
 #左翼
 
 	WuZHengFuGuongCHanZHuYi = { #无政府共产主义
@@ -107,26 +129,26 @@ ideologies = {
 		}
 	}
 
-	YuanSHiZHuYi = { #远视主义
-		types = {
-			YuanSHiZHuYi_c = {
-			}
-		}
-		color = { 77 178 178 }
-
-		rules = {
-			can_create_collaboration_government = yes
-			can_declare_war_on_same_ideology = yes
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = yes
-			can_create_factions = no
-			can_join_factions = no
-		}
-	}
+#	YuanSHiZHuYi = { #远视主义
+#		types = {
+#			YuanSHiZHuYi_c = {
+#			}
+#		}
+#		color = { 77 178 178 }
+#
+#		rules = {
+#			can_create_collaboration_government = yes
+#			can_declare_war_on_same_ideology = yes
+#			can_force_government = yes
+#			can_send_volunteers = yes
+#			can_puppet = yes
+#			can_lower_tension = yes
+#			can_only_justify_war_on_threat_country = no
+#			can_guarantee_other_ideologies = yes
+#			can_create_factions = no
+#			can_join_factions = no
+#		}
+#	}
 
 	JunZHengGuongCHanZHuYi = { #军政共产主义
 		types = {

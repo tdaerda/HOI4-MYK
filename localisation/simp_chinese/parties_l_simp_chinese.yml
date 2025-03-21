@@ -21,13 +21,19 @@
  
  #意识形态
  
+ WuZHengFuZuangTai: "无政府状态"
+ WuZHengFuZuangTai_noun: "无政府状态"
+ WuZHengFuZuangTai_desc: "§R[错误 错误 错误]§!"
+ WuZHengFuZuangTai_c: "无政府状态"
+ WuZHengFuZuangTai_c_desc: "基本介绍：\n无政府状态（anarchy）是指一个地区没有任何有效的统治者、政府和权威，当地一般陷入彻底的混乱和无序当中，但有些地方还会保留着一定的秩序，比如村庄、帮派和一些军阀\n\n\n政治主张：\n无政府状态不是一种意识形态\n\n\n近代影响：\n在三十年三十年战争中有些地区度过了超过20年的无政府状态"
+ 
  # # #左翼
  
  WuZHengFuGuongCHanZHuYi: "无政府共产主义"
  WuZHengFuGuongCHanZHuYi_noun: "无政府共产主义"
  WuZHengFuGuongCHanZHuYi_desc: "无政府共产主义是由委员会领导的共产主义。"
  WuZHengFuGuongCHanZHuYi_c: "共产主义无政府公社"
- WuZHengFuGuongCHanZHuYi_c_desc: "无政府共产主义是由委员会领导的共产主义
+ WuZHengFuGuongCHanZHuYi_c_desc: "无政府共产主义是由委员会领导的共产主义"
  
  GuongTuanZHuYi: "工团主义"
  GuongTuanZHuYi_noun: "工团主义"
@@ -53,11 +59,11 @@
  SiDaLingZHuYi_c: "委员会独裁国"
  SiDaLingZHuYi_c_desc: "斯大林主义是以独裁制和个人崇拜为基础建立起来的，并且是以重工业优先和计划经济为经济模式的。"
  
- YuanSHiZHuYi: "远视主义"
- YuanSHiZHuYi_noun: "远视主义"
- YuanSHiZHuYi_desc: "共产主义研究所是以共产主义为基础的加速主义"
- YuanSHiZHuYi_c: "共产主义研究所"
- YuanSHiZHuYi_c_desc: "物！物！物！"
+ #YuanSHiZHuYi: "远视主义"
+ #YuanSHiZHuYi_noun: "远视主义"
+ #YuanSHiZHuYi_desc: "远视主义政体"
+ #YuanSHiZHuYi_c: "远视主义"
+ #YuanSHiZHuYi_c_desc: "基本介绍：\n远视主义，又或者左翼加速主义是一种加速主义的分支，"
  
  JunZHengGuongCHanZHuYi: "军政共产主义"
  JunZHengGuongCHanZHuYi_noun: "军政共产主义"
@@ -91,7 +97,7 @@
  MinZHuSHeHuiZHuYi_noun: "民主社会主义"
  MinZHuSHeHuiZHuYi_desc: "民主社会主义政体。"
  MinZHuSHeHuiZHuYi_c: "民主社会主义"
- MinZHuSHeHuiZHuYi_c_desc: "民主社會主義是一種把现代民主宪政和社会主义经济合为一体的政治意識形態，它的本意就是指民主的社会主义形态。 可以认为，社会民主主义是社会主义加入了一些“民主主义”的元素。 但由于何为“民主”、何为“社会主义”存在很大争议，民主社会主义也是一个相当宽泛的概念。"
+ MinZHuSHeHuiZHuYi_c_desc: "民主社会主义是一種把现代民主宪政和社会主义经济合为一体的政治意识形态，它的本意就是指民主的社会主义形态。 可以认为，社会民主主义是社会主义加入了一些“民主主义”的元素。 但由于何为“民主”、何为“社会主义”存在很大争议，民主社会主义也是一个相当宽泛的概念。"
  
  JiaSuZHuYi: "加速主义"
  JiaSuZHuYi_noun: "加速主义"
@@ -99,7 +105,7 @@
  #JiaSuZHuYi_c: "原教旨加速主义"
  JiaSuZHuYi_c: "加速主义"
  #JiaSuZHuYi_c_desc: "基本介绍：\n加速主义（Accelerationism）是一种比较抽象的概念，大体上就是认为科学优先和激化社会矛盾通过打世界大战的方式进行加速的科学发展。\n\n\n政治主张：\n加速主义分为左翼（原教旨）加速主义和新加速主义。\n\n\n近代影响：\n社会民主主义是在1900年提出的，尔早起的俄国社会民主工党更像民主社会主义，所以没有近代影响"
- JiaSuZHuYi_c_desc: "基本介绍：\n加速主义（Accelerationism）是一种比较抽象的概念，大体上就是认为科学优先和激化社会矛盾通过打世界大战的方式进行加速的科学发展。\n\n\n政治主张：\n加速主义最开始是一种基于资本主义的意识形态的意识形态，认为资本主义和技术应该进行快速的变革，\n后面分裂出了左翼加速主义，左翼加速主义认为加速主义不应该局限于资本主义，这种社会与技术的变革应该用于解放人类，\n有左就有右，右翼加速主义认为资本主义应该无限强化，因为发展科技是对公司有利的，而按照资本逐利的概念，资本一定会疯狂的研发新技术夺取顾客。\n还有无限制加速主义，它认为加速主义不应该服务于左或者右，应该自成一派，也就是第三条陆。\n\n\n近代影响：\n加速主义在近代还只是个理论，没有任何实践和影响"
+ JiaSuZHuYi_c_desc: "基本介绍：\n加速主义（Accelerationism）是一种比较抽象的概念，大体上就是认为科学优先和激化社会矛盾通过世界大战的方式进行加速的科学发展。\n\n\n政治主张：\n加速主义最开始是一种基于资本主义的意识形态的意识形态，认为资本主义和技术应该进行快速的变革，\n后面分裂出了左翼加速主义，左翼加速主义认为加速主义不应该局限于资本主义，这种社会与技术的变革应该用于解放人类，\n有左就有右，右翼加速主义认为资本主义应该无限强化，因为发展科技是对公司有利的，而按照资本逐利的概念，资本一定会疯狂的研发新技术夺取顾客。\n还有无限制加速主义，它认为加速主义不应该服务于左或者右，应该自成一派，也就是第三条陆。\n\n\n近代影响：\n加速主义在近代还只是个理论，没有任何实践和影响"
  
  # # #右翼
  
@@ -130,10 +136,10 @@
  MinZuSHeHuiZHuYi_c: "民族社会主义"
  MinZuSHeHuiZHuYi_c_desc: "基本介绍：\n古典自由主义（classical liberalism）是一\n种在18世纪由小资产阶级建立的意识形态，认为应该遵循自由市场，政府的干预会障碍经济的发展，总之§Y真伟大啊哈耶克§!\n\n\n政治主张：\n古典自由主义认为个人先于国家，强调私有财产不可侵犯，政府不可干预经济并保护每个人的自由，反对君权神授、世袭君主、国教\n\n\n近代影响：\n影响法国大革命和美国独立战争。"
  
- BoGenDiTiZHi: "勃艮第体制"
- BoGenDiTiZHi_noun: "勃艮第体制"
- BoGenDiTiZHi_desc: "勃艮第体制政体"
- BoGenDiTiZHi_c: "民族斯巴达国"
+ BoGenDiTiZHi: "秘传主义"
+ BoGenDiTiZHi_noun: "秘传主义"
+ BoGenDiTiZHi_desc: "秘传主义政体"
+ BoGenDiTiZHi_c: "秘传主义"
  BoGenDiTiZHi_c_desc: "勃艮第体制是希莱姆提出的比纳粹主义还右的极端民族主义，他将全人类按照勃艮第葡萄酒那样进行分级，不仅将外族人分成三六九等，就连本族也要进行分级。 最高级的“精英”雅利安人将掌握国家的命运。 在希莱姆的设想下，未经国家批准，任何人都不得结婚，更不用说生育了。"
  
  # # #？？？
@@ -402,7 +408,7 @@
  GER_BoGenDiTiZHi_party: "纳粹党（党卫军派）"
  GER_BoGenDiTiZHi_party_long: "民族社会主义德国工人党（党卫军派）"
  GER_JiaZHangZHi_party: "纳粹党（冲锋队派）"    恩斯特·罗姆
- GER_JiaZHangZHi_party_long: "民族社会主义德国工人党（自由军团派）
+ GER_JiaZHangZHi_party_long: "民族社会主义德国工人党（冲锋队派）
  
  GER_BaoSHouZHuYi_party: "巴伐利亚人民党"  弗里茨·舍菲尔
  
@@ -537,6 +543,31 @@
  USA_fascism_party: "美国银衫军"
  
  #法国
+ 
+ FRA_BaoSHouZHuYi_party: "民主联盟"    #阿尔贝·勒布伦
+ FRA_BaoSHouZHuYi_party_long: "民主联盟"
+ 
+ FRA_JiaZHangZHi_party: "法国军部"    #菲利普·贝当
+ FRA_JiaZHangZHi_party_long: "法国军部"
+ 
+ FRA_MinZuSHeHuiZHuYi_party: "火十字团"    #弗朗索瓦·德·拉·罗克
+ FRA_MinZuSHeHuiZHuYi_party_long: "火十字团"
+ FRA_FaXiSiZHuYi_party: "青年爱国者"    #Pierre Taittinger
+ FRA_FaXiSiZHuYi_party_long: "青年爱国者"
+ #FRA_FaXiSiZHuYi_party: "法兰西人民党"    #Jacques Doriot
+ #FRA_FaXiSiZHuYi_party_long: "法兰西人民党"
+ 
+ FRA_JunZHuZHuYi_party: "法兰西行动"    #夏尔·莫拉斯
+ FRA_JunZHuZHuYi_party_long: "法兰西行动"
+ 
+ FRA_MaKeSi_LieNingZHuYi_party: "法国共产党"    #莫里斯·多列士
+ FRA_MaKeSi_LieNingZHuYi_party_long: "法兰西共产党"
+ FRA_SHeHuiMinZHuZHuYi_party: "工人国际法国支部（社民派）"    #莱昂·布鲁姆
+ FRA_SHeHuiMinZHuZHuYi_party_long: "工人国际法国支部（社民派）"
+ FRA_GuDianZiYouZHuYi_party: "激进党"    #卡米耶·肖当
+ FRA_GuDianZiYouZHuYi_party_long: "激进党"
+ FRA_JiaSuZHuYi_party: "工人国际法国支部（新社派）"    #马塞尔·迪亚
+ FRA_JiaSuZHuYi_party_long: "工人国际法国支部（新社派）"
  
  FRA_communism_party: "法国共产党"
  FRA_democratic_party: "激进党"
