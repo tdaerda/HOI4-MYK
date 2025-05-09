@@ -65,10 +65,10 @@ guiTypes = {
 #				
 #		buttonType = {
 #			name = "income_buttonType"
-3			quadTextureSprite ="GFX_topbar_technology"
+#			quadTextureSprite ="GFX_topbar_technology"
 #			position = { x= -196 y = 0 }
-3			Orientation = "UPPER_LEFT"
-3			shortcut = "w"
+#			Orientation = "UPPER_LEFT"
+#			shortcut = "w"
 #			clicksound = click_close
 #			oversound = ui_menu_over
 #		}

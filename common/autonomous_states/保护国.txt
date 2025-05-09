@@ -9,7 +9,6 @@ autonomy_state = {
 
 	rule = {
 #限制
-		unit_deployed_to_overlord = no
 	}
 	
 	modifier = {

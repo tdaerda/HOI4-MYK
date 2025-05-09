@@ -2,6 +2,27 @@ on_actions = {
 	on_startup = {
 		effect = {
 			set_variable = { global.income_gui = 1 }
+			
+			set_variable = { global.anarcho_communism_support_gui = 5 }	#无政府共产主义
+			set_variable = { global.revolutionary_syndicalism_support_gui = 5 }	#革命工团主义
+			set_variable = { global.marxism_leninism_support_gui = 5 }	#马克思-列宁主义
+			set_variable = { global.trotskyism_support_gui = 5 }	#托洛斯基主义
+			set_variable = { global.stalinism_support_gui = 5 }	#斯大林主义
+			set_variable = { global.classical_liberalism_support_gui = 5 }	#古典自由主义
+			set_variable = { global.social_democracy_support_gui = 5 }	#社会民主主义
+			set_variable = { global.democratic_socialism_support_gui = 5 }	#民主社会主义
+			set_variable = { global.accelerationism_support_gui = 5 }	#加速主义
+			set_variable = { global.conservatism_support_gui = 5 }	#保守主义
+			set_variable = { global.paternalistic_conservatism_support_gui = 5 }	#家长制保守主义
+			set_variable = { global.paternalistic_support_gui = 5 }	#家长制
+			set_variable = { global.monarchism_support_gui = 5 }	#君主主义
+			set_variable = { global.corporatocracy_support_gui = 5 }	#企业统治
+			set_variable = { global.national_bolshevism_support_gui = 5 }	#民族布尔什维克
+			set_variable = { global.corporatidm_support_gui = 5 }	#法团主义
+			set_variable = { global.strasserismus_support_gui = 5 }	#斯特拉瑟主义
+			set_variable = { global.fascism_support_gui = 5 }	#法西斯主义
+			set_variable = { global.nationalsozialismus_support_gui = 5 }	#民族社会主义
+			set_variable = { global.esotericism_support_gui = 5 }	#秘传主义
 		}
 	}
 	on_daily = {
