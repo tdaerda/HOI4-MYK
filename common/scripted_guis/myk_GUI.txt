@@ -5,4 +5,10 @@ scripted_gui = {
 
 		dirty = global.income_gui
 	}
+
+	stateview_ideology_gui = {
+		window_name = "stateview_ideology"
+		context_type = selected_state_context
+		parent_window_name = stateview_ideology_anchor
+	}
 }

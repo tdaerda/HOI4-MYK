@@ -21,7 +21,6 @@
  myk_idea_DisSiTianZai: "~"
  
  #GUI
- 
  # # #经济
  
  #income_count_1: "[?ROOT.treasury]" #|+
@@ -33,9 +32,26 @@
  
  # # #意识形态支持率
  
- anarcho_communism_support_gui: "当地无政府共产主义支持率：[?FROM.anarcho_communism_support_gui]%"
- 
- 
+ anarcho_communism_support_gui: "当地无政府共产主义支持率：[?FROM.anarcho_communism_support|Y%%]"
+ revolutionary_syndicalism_support_gui: "当地革命工团主义支持率：[?FROM.revolutionary_syndicalism_support|Y%%]"
+ marxism_leninism_support_gui: "当地马克思-列宁支持率：[?FROM.marxism_leninism_support|Y%%]"
+ trotskyism_support_gui: "当地托洛斯基主义支持率：[?FROM.trotskyism_support|Y%%]"
+ stalinism_support_gui: "当地斯大林主义支持率：[?FROM.stalinism_support|Y%%]"
+ classical_liberalism_support_gui: "当地古典自由主义支持率：[?FROM.classical_liberalism_support|Y%%]"
+ social_democracy_support_gui: "当地社会民主主义支持率：[?FROM.social_democracy_support|Y%%]"
+ democratic_socialism_support_gui: "当地民主社会主义支持率：[?FROM.democratic_socialism_support|Y%%]"
+ accelerationism_support_gui: "当地加速主义支持率：[?FROM.accelerationism_support|Y%%]"
+ conservatism_support_gui: "当地保守主义支持率：[?FROM.conservatism_support|Y%%]"
+ paternalistic_conservatism_support_gui: "当地家长制保守主义支持率：[?FROM.paternalistic_conservatism_support|Y%%]"
+ paternalistic_support_gui: "当地家长制支持率：[?FROM.paternalistic_support|Y%%]"
+ monarchism_support_gui: "当地君子主义支持率：[?FROM.monarchism_support|Y%%]"
+ corporatocracy_support_gui: "当地企业统治支持率：[?FROM.corporatocracy_support|Y%%]"
+ national_bolshevism_support_gui: "当地民族布尔什维克支持率：[?FROM.national_bolshevism_support|Y%%]"
+ corporatidm_support_gui: "当地法团主义支持率：[?FROM.corporatidm_support|Y%%]"
+ strasserismus_support_gui: "当地斯特拉瑟主义支持率：[?FROM.strasserismus_support|Y%%]"
+ fascism_support_gui: "当地法西斯主义支持率：[?FROM.fascism_support|Y%%]"
+ nationalsozialismus_support_gui: "当地民族社会主义支持率：[?FROM.nationalsozialismus_support|Y%%]"
+ esotericism_support_gui: "当地秘传主义支持率：[?FROM.esotericism_support|Y%%]"
  
  #自定义修正
  

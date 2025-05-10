@@ -1,5 +1,248 @@
 guiTypes = {
 
+# # #新加内容
+	
+	containerWindowType = {
+		name = "stateview_ideology"
+		position = { x=-300 y=-54}
+		show_position = { x=300 y =54 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 0
+		orientation = lower_left
+		size = { width=436 height=496 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_stateview_ideology_bg"
+			position = { x = 5 y = 5 }
+		}
+		
+		instantTextboxType = {
+			name = "anarcho_communism_support_gui"
+			position = { x = 180 y = 50 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "anarcho_communism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "revolutionary_syndicalism_support_gui"
+			position = { x = 180 y = 66.2 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "revolutionary_syndicalism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "marxism_leninism_support_gui"
+			position = { x = 180 y = 82.4 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "marxism_leninism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "trotskyism_support_gui"
+			position = { x = 180 y = 98.6 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "trotskyism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "astalinism_support_gui"
+			position = { x = 180 y = 114.8 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "stalinism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "classical_liberalism_support_gui"
+			position = { x = 180 y = 131 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "classical_liberalism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "social_democracy_support_gui"
+			position = { x = 180 y = 147.2 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "social_democracy_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "democratic_socialism_support_gui"
+			position = { x = 180 y = 163.4 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "democratic_socialism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		
+		instantTextboxType = {
+			name = "accelerationism_support_gui"
+			position = { x = 180 y = 179.6 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "accelerationism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "conservatism_support_gui"
+			position = { x = 180 y = 195.8 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "conservatism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "paternalistic_conservatism_support_gui"
+			position = { x = 180 y = 212 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "paternalistic_conservatism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "paternalistic_support_gui"
+			position = { x = 180 y = 228.2 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "paternalistic_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "monarchism_support_gui"
+			position = { x = 180 y = 244.4 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "monarchism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "corporatocracy_support_gui"
+			position = { x = 180 y = 260.6 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "corporatocracy_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "national_bolshevism_support_gui"
+			position = { x = 180 y = 276.8 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "national_bolshevism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "corporatidm_support_gui"
+			position = { x = 180 y = 293 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "corporatidm_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "strasserismus_support_gui"
+			position = { x = 180 y = 309.2 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "strasserismus_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "fascism_support_gui"
+			position = { x = 180 y = 325.4 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "fascism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "nationalsozialismus_support_gui"
+			position = { x = 180 y = 341.6 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "nationalsozialismus_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "esotericism_support_gui"
+			position = { x = 180 y = 374 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "esotericism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+	}
+
+# # #旧有内容
+
 	containerWindowType = {
 		name = "claim_entry"
 		
@@ -31,46 +274,12 @@ guiTypes = {
 		orientation = lower_left
 		size = { width=436 height=496 }
 		
-# # #新加内容
-	
-		containerWindowType = {
-			name = "stateview_ideology"
-			position = { x=-500 y=-443}
-			show_position = { x=300 y =-443 }
-			show_animation_type = decelerated
-			hide_animation_type = accelerated
-			animation_time = 300
-			orientation = lower_left
-			size = { width=436 height=496 }
-			
-			containerWindowType = {
-				name = "ideology_state_info_window"
-				position = { x = 0 y = 0 }
-				size = { width=780 height=496 }
-			
-			
-				background = {
-					name = "Background"
-					quadTextureSprite = "GFX_stateview_ideology_bg"
-					position = { x = 5 y = 5 }
-				}
-				
-				instantTextboxType = {
-					name = "anarcho_communism_support_gui"
-					position = { x = 400 y = 42 }
-					textureFile = ""
-					font = "hoi_18mbs"
-					text = "anarcho_communism_support_gui"
-					maxWidth = 140
-					maxHeight = 30
-					fixedsize = yes
-					format = center
-				}
-			}
+		containerWindowType = {	#新加内容（锚点）
+			name = "stateview_ideology_anchor"
+			position = { x = 0 y = 0 }
+			size = { width=0 height=0 }
 		}
-
-# # #旧有内容
-
+		
 		containerWindowType = {
 			name = "state_info_window"
 			position = { x = 0 y = 0 }
