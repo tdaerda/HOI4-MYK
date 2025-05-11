@@ -47,11 +47,12 @@
  monarchism_support_gui: "当地君子主义支持率：[?FROM.monarchism_support|Y%%]"
  corporatocracy_support_gui: "当地企业统治支持率：[?FROM.corporatocracy_support|Y%%]"
  national_bolshevism_support_gui: "当地民族布尔什维克支持率：[?FROM.national_bolshevism_support|Y%%]"
- corporatidm_support_gui: "当地法团主义支持率：[?FROM.corporatidm_support|Y%%]"
+ #corporatidm_support_gui: "当地法团主义支持率：[?FROM.corporatidm_support|Y%%]"
  strasserismus_support_gui: "当地斯特拉瑟主义支持率：[?FROM.strasserismus_support|Y%%]"
  fascism_support_gui: "当地法西斯主义支持率：[?FROM.fascism_support|Y%%]"
  nationalsozialismus_support_gui: "当地民族社会主义支持率：[?FROM.nationalsozialismus_support|Y%%]"
  esotericism_support_gui: "当地秘传主义支持率：[?FROM.esotericism_support|Y%%]"
+ apoliticism_support_gui: "当地非政治主义支持率：[?FROM.apoliticism_support|Y%%]"
  
  #自定义修正
  

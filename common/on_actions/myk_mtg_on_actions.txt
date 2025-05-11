@@ -18,11 +18,12 @@ on_actions = {
 				set_variable = { var = monarchism_support value = 5 }	#君主主义
 				set_variable = { var = corporatocracy_support value = 5 }	#企业统治
 				set_variable = { var = national_bolshevism_support value = 5 }	#民族布尔什维克
-				set_variable = { var = corporatidm_support value = 5 }	#法团主义
+#				set_variable = { var = corporatidm_support value = 5 }	#法团主义
 				set_variable = { var = strasserismus_support value = 5 }	#斯特拉瑟主义
 				set_variable = { var = fascism_support value = 5 }	#法西斯主义
 				set_variable = { var = nationalsozialismus_support value = 5 }	#民族社会主义
 				set_variable = { var = esotericism_support value = 5 }	#秘传主义
+				set_variable = { var = apoliticism_support value = 5 }	#非政治主义
 			}
 		}
 	}

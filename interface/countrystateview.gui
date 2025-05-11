@@ -31,7 +31,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "revolutionary_syndicalism_support_gui"
-			position = { x = 180 y = 66.2 }
+			#position = { x = 180 y = 66.2 }
+			position = { x = 180 y = 67 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "revolutionary_syndicalism_support_gui"
@@ -42,7 +43,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "marxism_leninism_support_gui"
-			position = { x = 180 y = 82.4 }
+			#position = { x = 180 y = 82.4 }
+			position = { x = 180 y = 84 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "marxism_leninism_support_gui"
@@ -53,7 +55,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "trotskyism_support_gui"
-			position = { x = 180 y = 98.6 }
+			#position = { x = 180 y = 98.6 }
+			position = { x = 180 y = 101 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "trotskyism_support_gui"
@@ -64,7 +67,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "astalinism_support_gui"
-			position = { x = 180 y = 114.8 }
+			#position = { x = 180 y = 114.8 }
+			position = { x = 180 y = 118 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "stalinism_support_gui"
@@ -75,7 +79,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "classical_liberalism_support_gui"
-			position = { x = 180 y = 131 }
+			#position = { x = 180 y = 131 }
+			position = { x = 180 y = 135 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "classical_liberalism_support_gui"
@@ -86,7 +91,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "social_democracy_support_gui"
-			position = { x = 180 y = 147.2 }
+			#position = { x = 180 y = 147.2 }
+			position = { x = 180 y = 152 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "social_democracy_support_gui"
@@ -97,7 +103,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "democratic_socialism_support_gui"
-			position = { x = 180 y = 163.4 }
+			#position = { x = 180 y = 163.4 }
+			position = { x = 180 y = 169 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "democratic_socialism_support_gui"
@@ -109,7 +116,8 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "accelerationism_support_gui"
-			position = { x = 180 y = 179.6 }
+			#position = { x = 180 y = 179.6 }
+			position = { x = 180 y = 186 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "accelerationism_support_gui"
@@ -120,7 +128,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "conservatism_support_gui"
-			position = { x = 180 y = 195.8 }
+			#position = { x = 180 y = 195.8 }
+			position = { x = 180 y = 203 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "conservatism_support_gui"
@@ -131,7 +140,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "paternalistic_conservatism_support_gui"
-			position = { x = 180 y = 212 }
+			#position = { x = 180 y = 212 }
+			position = { x = 180 y = 220 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "paternalistic_conservatism_support_gui"
@@ -142,7 +152,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "paternalistic_support_gui"
-			position = { x = 180 y = 228.2 }
+			#position = { x = 180 y = 228.2 }
+			position = { x = 180 y = 237 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "paternalistic_support_gui"
@@ -153,7 +164,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "monarchism_support_gui"
-			position = { x = 180 y = 244.4 }
+			#position = { x = 180 y = 244.4 }
+			position = { x = 180 y = 254 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "monarchism_support_gui"
@@ -164,7 +176,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "corporatocracy_support_gui"
-			position = { x = 180 y = 260.6 }
+			#position = { x = 180 y = 260.6 }
+			position = { x = 180 y = 271 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "corporatocracy_support_gui"
@@ -175,7 +188,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "national_bolshevism_support_gui"
-			position = { x = 180 y = 276.8 }
+			#position = { x = 180 y = 276.8 }
+			position = { x = 180 y = 288 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "national_bolshevism_support_gui"
@@ -184,20 +198,21 @@ guiTypes = {
 			fixedsize = yes
 			format = left
 		}
-		instantTextboxType = {
-			name = "corporatidm_support_gui"
-			position = { x = 180 y = 293 }
-			textureFile = ""
-			font = "hoi_18mbs"
-			text = "corporatidm_support_gui"
-			maxWidth = 436
-			maxHeight = 30
-			fixedsize = yes
-			format = left
-		}
+#		instantTextboxType = {
+#			name = "corporatidm_support_gui"
+#			position = { x = 180 y = 293 }
+#			textureFile = ""
+#			font = "hoi_18mbs"
+#			text = "corporatidm_support_gui"
+#			maxWidth = 436
+#			maxHeight = 30
+#			fixedsize = yes
+#			format = left
+#		}
 		instantTextboxType = {
 			name = "strasserismus_support_gui"
-			position = { x = 180 y = 309.2 }
+			#position = { x = 180 y = 309.2 }
+			position = { x = 180 y = 305 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "strasserismus_support_gui"
@@ -208,7 +223,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "fascism_support_gui"
-			position = { x = 180 y = 325.4 }
+			#position = { x = 180 y = 325.4 }
+			position = { x = 180 y = 322 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "fascism_support_gui"
@@ -219,7 +235,8 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "nationalsozialismus_support_gui"
-			position = { x = 180 y = 341.6 }
+			#position = { x = 180 y = 341.6 }
+			position = { x = 180 y = 339 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "nationalsozialismus_support_gui"
@@ -230,10 +247,23 @@ guiTypes = {
 		}
 		instantTextboxType = {
 			name = "esotericism_support_gui"
-			position = { x = 180 y = 374 }
+			#position = { x = 180 y = 357.8 }
+			position = { x = 180 y = 356 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			text = "esotericism_support_gui"
+			maxWidth = 436
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+		}
+		instantTextboxType = {
+			name = "apoliticism_support_gui"
+			#position = { x = 180 y = 374 }
+			position = { x = 180 y = 373 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			text = "apoliticism_support_gui"
 			maxWidth = 436
 			maxHeight = 30
 			fixedsize = yes
